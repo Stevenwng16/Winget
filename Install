@@ -1,0 +1,24 @@
+# Winget script to install specified software
+
+# Docker Desktop
+winget install --id Docker.DockerDesktop -e
+
+# Git
+winget install --id Git.Git -e
+
+# HashiCorp Terraform
+winget install --id HashiCorp.Terraform -e
+
+# Microsoft Azure PowerShell
+winget install --id Microsoft.AzurePowerShell -e
+
+# Azure CLI
+winget install --id Microsoft.AzureCLI -e
+
+# .NET SDK
+winget install --id Microsoft.DotNet.SDK -e
+
+# Microsoft Visual Studio Code
+winget install --id Microsoft.VisualStudioCode -e
+
+echo "Installation of Docker Desktop, Git, HashiCorp Terraform, Microsoft Azure PowerShell, Azure CLI, .NET SDK, and Microsoft Visual Studio Code completed."
